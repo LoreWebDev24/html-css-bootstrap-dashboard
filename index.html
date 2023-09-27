@@ -65,33 +65,45 @@
                     </ul>
                 </div>
             </div>
-            <div class="main-app-content d-flex  flex-column">
-                <div class="student-status-bar py-3 px-2 d-flex">
+            <div class="main-app-content d-flex flex-column">
+                <div class="student-status-bar py-3 px-2 d-flex flex-column flex-lg-row">
                    <div class="tasks">
                         <div class="task-header d-flex align-items-center gap-2">
-                            <h3 class="text-white fw-normal">Boolean</h3><span class="status-badge badge rounded-pill text-bg-primary fw-light">Piano Blaze</span>
+                            <h3 class="text-white fw-semi-bold">Boolean</h3><span class="status-badge badge rounded-pill text-bg-primary fw-light">Piano Blaze</span>
                         </div>
                         <div class="task-body d-flex align-items-center gap-2">
                            <ul class="tasks-always-on d-flex gap-2">
                                 <li><span class="status-badge badge rounded-pill text-bg-primary fw-light">3 App</span></li>
                                 <li><i class="fa-solid fa-angles-right text-white"></i></li>
                            </ul>
-                           <ul class="class-on-none">
-                                <li></li>
-                                <li></li>
-                                <li></li>
+                           <ul class="class-on-none d-flex gap-2">
+                                <li class="d-none d-md-flex"><span class="status-badge badge rounded-pill text-bg-primary fw-light">Boolean mobile App</span></li>
+                                <li class="d-none d-md-flex"><span class="status-badge badge rounded-pill text-bg-primary fw-light">Boolean Web App</span></li>
+                                <li class="d-none d-md-flex"><span class="status-badge badge rounded-pill text-bg-primary fw-light">Boolean Blog App</span></li>
+                                <li class="d-flex d-md-none"><span class="status-badge badge rounded-pill text-bg-primary fw-light">+</span></li></li>
                            </ul>
-
                         </div>
                     </div>
                     <div class="online-students">
-                        <div class="task-header d-flex align-items-center gap-2">
-                            <h3 class="text-white fw-normal">Boolean</h3><span class="status-badge badge rounded-pill text-bg-primary fw-light">Primary</span>
+                        <div class="task-header d-flex flex-column gap-1">
+                            <p class="text-white mb-0">Studenti online negli ultimi 30 min</p>
+                            <h2 class="text-white mb-0"><span class="counter">125</span></h2>
                         </div>
                     </div>
                     <div class="add-new-student">
-                        <div class="task-header d-flex align-items-center gap-2">
-                            <h3 class="text-white fw-normal">Boolean</h3><span class="status-badge badge rounded-pill text-bg-primary fw-light">Primary</span>
+                        <div class="task-header d-flex align-items-center gap-3">
+                            <h6 class="text-white fw-normal">Nuovo Studente</h6>
+                            <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus"></i></button>
+
+                            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                              <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                              </div>
+                              <div class="offcanvas-body">
+                                ...
+                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -111,16 +111,45 @@ ul, li{
 
 span.status-badge {
     background-color: #165BBA!important;
+    text-align: center;
 }
 
 .tasks {
-    flex-grow: 3;
+    flex-grow: 10;
+    order: 2;
 }
 
 .online-students, .add-new-student {
-    flex-grow: 2;
+    flex-grow: 3;
 }
 
+.add-new-student {
+    order: 1;
+}
+
+.online-students {
+    order: 3;
+}
 .fa-solid.fa-angles-right.text-white {
     font-size: 12px;
+}
+
+.btn {
+    border: 1px solid white;
+    color: white;
+}
+
+@media screen and (min-width: 768px) {
+    .tasks {
+        order:1;
+    }
+
+    .online-students {
+        order: 2;
+    }
+
+    .add-new-student {
+        order: 3;
+    }
+
 }
