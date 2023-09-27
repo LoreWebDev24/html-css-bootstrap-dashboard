@@ -1,7 +1,7 @@
 :root { 
 --top-search-bar: #F8F9FA;
 --sidebar: #051E34; 
---blu-bar: #1B72E8;
+--student-status-bar: #1B72E8;
 --main-app-content:#F8F9FA;
 }
 
@@ -28,8 +28,8 @@ ul, li{
     width: 100vw;
 }
 
-.blu-bar {
-    background-color: var(--blu-bar);
+.student-status-bar {
+    background-color: var(--student-status-bar);
     min-height: 100px;
 }
 
@@ -107,3 +107,20 @@ ul, li{
     }
 }
 
+/* STUDENT STATUS BAR */
+
+span.status-badge {
+    background-color: #165BBA!important;
+}
+
+.tasks {
+    flex-grow: 3;
+}
+
+.online-students, .add-new-student {
+    flex-grow: 2;
+}
+
+.fa-solid.fa-angles-right.text-white {
+    font-size: 12px;
+}
