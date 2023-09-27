@@ -5,6 +5,11 @@
 --main-app-content:#F8F9FA;
 }
 
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
 .search-bar {
     background-color:#E5E5E5;
     color: black;

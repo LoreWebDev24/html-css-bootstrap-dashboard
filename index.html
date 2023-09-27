@@ -18,7 +18,7 @@
             <div class="container-fluid bg-white">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                        <img src="./img/logo.svg" alt="">
+                        <a href="#"><img src="./img/logo.svg" alt=""></a>
                     </div>
                     <div class="col flex-grow-1">
                         <form class="d-flex main-search-bar" role="search">
@@ -26,14 +26,19 @@
                           </form>
                     </div>
                     <div class="col-auto">
-                        <div class="navigation-menu d-flex gap-3">
+                        <div class="navigation-menu d-flex gap-3 align-items-center">
                             <ul class="first-nav-list d-none d-lg-flex nav navbar-nav d-flex flex-row gap-3">
-                                <li class="nav-item"><i class="fa-solid fa-bars"></i></li>
-                                <li class="nav-item"><i class="fa-solid fa-circle-question"></i></li>
-                                <li class="nav-item"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                                <li class="nav-item"><a href="#"><i class="fa-solid fa-bars"></i></a></li>
+                                <li class="nav-item"><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
+                                <li class="nav-item"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
                             </ul>
-                            <ul class="second-nav-list d-lg-flex nav navbar-nav d-flex flex-row gap-3">
-                                <li class="nav-item"><i class="fa-solid fa-bell"></i></li>
+                            <ul class="second-nav-list nav d-flex flex-row gap-3 dropdown-toggle" data-bs-toggle="dropdown">
+                                <a href="#"><i class="fa-solid fa-bell"></i></a>
+                            </ul>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Profilo</a></li>
+                                <li><a class="dropdown-item" href="#">Fatturazione</a></li>
+                                <li><a class="dropdown-item" href="#">Logout</a></li>
                             </ul>
                         </div>
                        
