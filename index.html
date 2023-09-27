@@ -14,9 +14,9 @@
 <body>
     <div class="web-app">
  <!-- TOP-SERARCH BAR SECTION  -->
-        <header class="top-search-bar d-flex align-items-center">
+        <header class="top-search-bar d-flex align-items-center flex-nowrap">
             <div class="container-fluid bg-white">
-                <div class="row justify-content-center align-items-center">
+                <div class="row justify-content-center align-items-center flex-nowrap">
                     <div class="col-auto">
                         <a href="#"><img src="./img/logo.svg" alt=""></a>
                     </div>
@@ -97,12 +97,79 @@
 
                             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                               <div class="offcanvas-header">
-                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Offcanvas right</h5>
+                                <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un Nuovo Studente:</h5>
                                 <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                               </div>
                               <div class="offcanvas-body">
-                                ...
-                              </div>
+                                    <form>
+                                        <div class="container-fluid">
+                                            <div class="row gy-3">
+                                                <div class="col-12 col-sm-6">
+                                                    <label for="First-name" class="form-label">First Name</label>
+                                                    <input type="text" class="form-control" placeholder="First name" aria-label="First name"
+                                                    id="First-name">
+                                                    
+                                                </div>
+                                                <div class="col-12 col-sm-6">
+                                                    <label for="Surname" class="form-label">Surname</label>
+                                                    <input type="text" class="form-control" placeholder="Surname" aria-label="Surname"
+                                                    id="Surname">
+                                                </div>
+                                                <div class="col-12 col-sm-6">
+                                                    <label for="Boolean-Email" class="form-label">Boolean Email</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-text">@</div>
+                                                        <input type="text" class="form-control" id="Boolean-Email" placeholder="Boolean Email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6">
+                                                    <label for="Boolean-Password" class="form-label">Boolean Password</label>
+                                                    <input type="Boolean Password" class="form-control" id="Boolean-Password">
+                                                </div>
+                                                <div class="col12 col-sm-6">
+                                                    <label for="Email" class="form-label">Email</label>
+                                                    <div class="input-group">
+                                                        <div class="input-group-text">@</div>
+                                                        <input type="text" class="form-control" id="Email" placeholder="Email">
+                                                    </div>
+                                                </div>
+                                                <div class="col-12 col-sm-6">
+                                                    <label for="Email's Password" class="form-label">Email's Password</label>
+                                                    <input type="Email's Password" class="form-control" id="Email's Password">
+                                                </div>
+                                                <div class="col-12">
+                                                    <label for="inputAddress" class="form-label">Address</label>
+                                                    <input type="text" class="form-control" id="inputAddress" placeholder="His Address">
+                                                </div>
+                                                <div class="col-12 col-sm-6">
+                                                    <label for="inputCity" class="form-label">City</label>
+                                                    <input type="text" class="form-control" id="inputCity">
+                                                </div>
+                                                <div class="col-12 col-sm-4">
+                                                    <label for="inputState" class="form-label">State</label>
+                                                    <select id="inputState" class="form-select">
+                                                    <option selected>Choose...</option>
+                                                    <option>Italy</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-12 col-sm-2">
+                                                    <label for="inputZip" class="form-label">Zip</label>
+                                                    <input type="text" class="form-control" id="inputZip">
+                                                </div>
+                                                <div class="col-12">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                    <label class="form-check-label" for="gridCheck">
+                                                    Check me out
+                                                    </label>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button type="submit" class="btn btn-primary fw-bold">Save</button>
+                                                    <button type="clear" class="btn btn-warning text-black fw-bold">Clear</button>
+                                                </div>
+                                            </div>
+                                        </div>         
+                                    </form>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -110,12 +177,7 @@
                 <div class="main-board flex-grow-1">
                 </div>
             </div>
-
-            
-        </div>
-    
-       
-        
+        </div>  
     </div>
 
 

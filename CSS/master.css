@@ -16,8 +16,6 @@ ul, li{
     padding: 0px;
 }
 
-
-
 .web-app {
     height: 100vh;
 }
@@ -35,7 +33,6 @@ ul, li{
 
 
 /* TOP SEARCH BAR */
-
 
 .search-bar {
     background-color:#E5E5E5;
@@ -139,6 +136,20 @@ span.status-badge {
     color: white;
 }
 
+.offcanvas.offcanvas-end {
+    width: 100vw;
+}
+
+.form-label {
+    font-weight: 700;
+    color: black ;
+    padding-left: 4px;
+}
+
+.offcanvas-title {
+    padding-left: 15px;
+}
+
 @media screen and (min-width: 768px) {
     .tasks {
         order:1;
@@ -150,6 +161,10 @@ span.status-badge {
 
     .add-new-student {
         order: 3;
+    }
+
+    .offcanvas.offcanvas-end {
+        width: 50vw;
     }
 
 }
