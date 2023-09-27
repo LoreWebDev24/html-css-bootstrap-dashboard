@@ -5,6 +5,24 @@
 --main-app-content:#F8F9FA;
 }
 
+.search-bar {
+    background-color:#E5E5E5;
+    color: black;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.first-nav-list {
+    color: grey;
+}
+
+.second-nav-list {
+    color: goldenrod;
+}
+
+.main-search-bar::before {
+    content: ('');
+}
 
 .web-app {
     height: 100vh;
