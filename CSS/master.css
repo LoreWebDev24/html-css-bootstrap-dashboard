@@ -1,0 +1,33 @@
+:root { 
+--top-search-bar: #F8F9FA;
+--sidebar: #051E34; 
+--blu-bar: #1B72E8;
+--main-app-content:#F8F9FA;
+}
+
+
+.web-app {
+    height: 100vh;
+}
+
+.main-app-content {
+    overflow-y: scroll;
+    background-color: var(--main-app-content);
+    width: 100vw;
+}
+
+.top-search-bar {
+    height:60px;
+    background-color: var(--top-search-bar);
+}
+
+.sidebar {
+    width:230px;
+    background-color: var(--sidebar);
+    height: calc(100vh - 60px);
+}
+
+.blu-bar {
+    background-color: var(--blu-bar);
+    min-height: 100px;
+}
