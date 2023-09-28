@@ -238,6 +238,8 @@ td:hover, th:hover {
     font-weight: 600;
 }
 
+
+
 @media screen and (min-width: 0px) {
     .roi, .data-td {
         display: none;
