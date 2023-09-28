@@ -1,3 +1,5 @@
+/* VARS  AND SOME GENERAL STYLES  */
+
 :root { 
 --top-search-bar: #F8F9FA;
 --sidebar: #051E34; 
@@ -15,6 +17,8 @@ ul, li{
     margin: 0px;
     padding: 0px;
 }
+
+/* CONTENT SECTIONS BG AND VW/VH */
 
 .web-app {
     height: 100vh;
