@@ -28,7 +28,6 @@ body {
     background-color: var(--main-app-content);
     width: 100vw;
     min-width: 470px;
-    height: calc(100vh - 160px);
    
 }
 
