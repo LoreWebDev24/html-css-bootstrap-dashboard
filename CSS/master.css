@@ -25,14 +25,19 @@ ul, li{
 }
 
 .main-app-content {
-    overflow-y: scroll;
     background-color: var(--main-app-content);
     width: 100vw;
+    min-width: 470px;
+    overflow-x: scroll;
 }
 
 .student-status-bar {
     background-color: var(--student-status-bar);
     min-height: 100px;
+}
+
+.main-board {
+    overflow-y: scroll;
 }
 
 
@@ -100,9 +105,10 @@ ul, li{
     height: calc(100vh - 60px);
     background-image: url(../img/sidebar-bg.png);
     color: white;
+    
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .sidebar {
         width:180px;
     }
@@ -155,6 +161,14 @@ span.status-badge {
 }
 
 @media screen and (min-width: 768px) {
+    
+    .offcanvas.offcanvas-end {
+        width: 70vw;
+    }
+
+}
+
+@media screen and (min-width: 576px) {
     .tasks {
         order:1;
     }
@@ -167,8 +181,68 @@ span.status-badge {
         order: 3;
     }
 
-    .offcanvas.offcanvas-end {
-        width: 50vw;
+}
+
+
+/* APP MAIN BOARD CONTENT  */
+
+th:not(:first-child) {
+    text-align: center;
+}
+
+td:hover, th:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.big-th { 
+    width: 400px;
+}
+
+.roi {
+    width: 70px;
+    text-align: center;
+}
+
+.little-class {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.data-td {
+    text-align: center;
+    width: 80px;
+}
+
+.td-badge {
+    text-align: center;
+    width: 20px;
+}
+
+.buttons-td {
+    text-align: center;
+    width: 160px;
+}
+
+.table-classes {
+    max-height: 300px;
+}
+
+@media screen and (min-width: 0px) {
+    .roi, .data-td {
+        display: none;
     }
 
 }
+
+@media screen and (min-width: 768px) {
+    .roi, .data-td {
+        display: table-cell;
+    }
+
+}
+
+
+
