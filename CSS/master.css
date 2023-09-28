@@ -233,8 +233,9 @@ td:hover, th:hover {
     width: 160px;
 }
 
-.table-classes {
-    max-height: 300px;
+.list-group {
+    width: 510px;
+    font-weight: 600;
 }
 
 @media screen and (min-width: 0px) {
