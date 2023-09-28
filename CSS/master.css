@@ -22,18 +22,28 @@ ul, li{
 
 body {
     height: 100vh;
+    overflow-y: hidden;
+}
+
+.web-app {
+    height: 100%;
+}
+
+.app-content {
+height: calc(100% - 60px);
 }
 
 .main-app-content {
     background-color: var(--main-app-content);
+    min-width: 470px; 
+    overflow-y: auto;
     width: 100vw;
-    min-width: 470px;
-   
 }
+
+/* WIDTH 100VW SOLO PERCHE' C'E' IL FLEX */
 
 .student-status-bar {
     background-color: var(--student-status-bar);
-    min-height: 100px;
 }
 
 .sidebar {
